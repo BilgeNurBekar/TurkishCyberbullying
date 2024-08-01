@@ -1,0 +1,45 @@
+# Python dosyaları için
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Jupyter Notebook dosyaları için
+.ipynb_checkpoints/
+
+# Virtualenv ve pipenv gibi sanal ortamlar için
+venv/
+env/
+.env/
+*.egg-info/
+Pipfile.lock
+requirements.txt
+
+# IDE ve editör dosyaları için
+.vscode/
+.idea/
+*.swp
+
+# Log dosyaları
+*.log
+
+# Model ve veri dosyaları
+*.h5
+*.ckpt
+*.bin
+*.pt
+*.json
+*.csv
+*.tsv
+*.pkl
+*.pickle
+
+# Özelleştirilmiş dosyalar
+config.json
+config.yml
+*.bak
+*.tmp
+
+# OS ve geçici dosyalar
+.DS_Store
+Thumbs.db
